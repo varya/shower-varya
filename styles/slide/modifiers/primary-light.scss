@@ -2,15 +2,15 @@
 // Red
 // ------------------------------------------------------------------
 
-&--pink {
+&--primary-light {
 
-    color: $white;
-    @include color-slide;
+   @include color-slide;
 
-	background-color:$pink;
+   background-color:$primary--light;
+   color: $white;
 
     &:after {
-        color: #FFF;
+        color: $dark;
     }
 
 }

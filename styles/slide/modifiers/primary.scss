@@ -2,15 +2,15 @@
 // Red
 // ------------------------------------------------------------------
 
-&--yellow {
+&--primary {
 
-   @include color-slide;
+    color: $white;
+    @include color-slide;
 
-   background-color:$yellow;
-   color: $dark;
+	background-color:$primary;
 
     &:after {
-        color: $dark;
+        color: #FFF;
     }
 
 }

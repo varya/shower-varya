@@ -2,12 +2,12 @@
 // Red
 // ------------------------------------------------------------------
 
-&--violet {
+&--highlighted-light {
 
    color: $white;
    @include color-slide;
 
-   background-color:$violet;
+   background-color:$highlighted--light;
 
     &:after {
         color: #FFF;

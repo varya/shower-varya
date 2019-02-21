@@ -16,7 +16,7 @@
 	width:$width;
 	height:$height;
 	font-size:25px;
-    background-image: url(../images/logo/ig-black.png);
+    background-image: url(../images/logo/v--black.png);
     background-size: 55px 55px;
     background-repeat: no-repeat;
     background-position: bottom 25px left 30px;
@@ -57,10 +57,10 @@
 		'modifiers/shout',
 		'modifiers/print',
 		'modifiers/black',
-		'modifiers/pink',
-		'modifiers/blue',
-		'modifiers/violet',
-		'modifiers/yellow',
+		'modifiers/primary',
+		'modifiers/highlighted',
+		'modifiers/highlighted-light',
+		'modifiers/primary-light',
 		'modifiers/white',
 		'modifiers/full-image',
 		'modifiers/no-title';
