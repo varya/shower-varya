@@ -8,6 +8,13 @@
 
   padding-left: 40px;
 
+  .cover__pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+  }
+
   h2 {
     color: $dark;
     margin-top: calc(25% + 2em);
@@ -15,7 +22,7 @@
   }
 
   .author {
-    color: $pink;
+    color: $white;
     font-family: 'Graphik Medium';
   }
 }

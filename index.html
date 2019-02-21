@@ -543,6 +543,23 @@
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
     <script src="script.js"></script>
-	<!-- Copyright © 2016 Yours Truly, Famous Inc. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/2.0.0/trianglify.min.js"></script>
+<script>
+	var pattern = Trianglify({
+		width: 1025,
+		height: 768,
+        x_colors: [
+		  '#F2E6C6',
+		  '#CA4E1F',
+          '#E69445',
+          '#38BCC2',
+          '#75D3D1'
+        ]
+	});
+    var cover = document.getElementById('cover');
+    var canvas = pattern.canvas();
+    canvas.classList.add('cover__pattern');
+	cover.prepend(canvas)
+</script><!-- Copyright © 2016 Yours Truly, Famous Inc. -->
 </body>
 </html>
