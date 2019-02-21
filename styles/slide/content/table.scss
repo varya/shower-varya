@@ -23,7 +23,7 @@ table {
 		text-align:left;
 	    &:not(:last-of-type), &:last-child {
 	    	font-weight:bold;
-            background-color: $blue;
+            background-color: $highlighted;
             color: #FFF;
             font-family: 'Graphik', sans-serif;
             border-bottom: none;

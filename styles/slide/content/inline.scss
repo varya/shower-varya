@@ -4,7 +4,7 @@
 
 a {
 	@include underline(currentColor, 0.05);
-	color:$blue;
+	color:$highlighted;
 	}
 b, strong {
 	font-weight:bold;
@@ -22,7 +22,7 @@ code, kbd, samp {
 	font-family:PT Mono, monospace, monospace;
 	}
 mark {
-	background:$yellow;
+	background:$shout--light;
 	}
 sub, sup {
 	position: relative;
