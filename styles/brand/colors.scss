@@ -10,12 +10,6 @@ $primary--light: #E69445;
 $highlighted: #38BCC2;
 $highlighted--light: #75D3D1;
 
-
-$pink: #e30085;
-$blue: #3BA9E4;
-$yellow: #F6C506;
-$violet: #070073;
-
 @mixin brandcolor($colorname, $color) {
     .color--#{$colorname},
     .color--#{$colorname}:link,
@@ -26,7 +20,5 @@ $violet: #070073;
     }
 }
 
-@include brandcolor('yellow', $yellow);
-@include brandcolor('pink', $pink);
-@include brandcolor('blue', $blue);
-@include brandcolor('violet', $violet);
+@include brandcolor('primary', $primary);
+@include brandcolor('highlighted', $highlighted);
