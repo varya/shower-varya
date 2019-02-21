@@ -8,6 +8,10 @@
 
   padding-left: 40px;
 
+  &:before {
+    display: none;
+  }
+
   .cover__pattern {
     position: absolute;
     top: 0;
