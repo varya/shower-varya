@@ -1,0 +1,23 @@
+$dark: #000;
+
+$white: #FFF;
+
+$pink: #e30085;
+$blue: #3BA9E4;
+$yellow: #F6C506;
+$violet: #070073;
+
+@mixin brandcolor($colorname, $color) {
+    .color--#{$colorname},
+    .color--#{$colorname}:link,
+    .color--#{$colorname}:active,
+    .color--#{$colorname}:visited
+    {
+      color: #{$color};
+    }
+}
+
+@include brandcolor('yellow', $yellow);
+@include brandcolor('pink', $pink);
+@include brandcolor('blue', $blue);
+@include brandcolor('violet', $violet);

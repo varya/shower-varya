@@ -1,0 +1,50 @@
+// ------------------------------------------------------------------
+// Section Full
+// ------------------------------------------------------------------
+// 1. Decoration ....... Decoration in Full mode
+// 2. Current .......... Enabler for the current slide
+// 3. Elements ......... Full screen elements
+// ------------------------------------------------------------------
+
+.slide {
+
+	// Decoration
+
+	position:absolute;
+	top:0;
+	left:0;
+	margin-left:-150%;
+	visibility:hidden;
+
+    &::before {
+      content: '';
+      display: block;
+	  position:absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 16px;
+      background-image:url(../images/bg-line.png);
+      background-position: 50% 0;
+      background-repeat: no-repeat;
+    }
+
+	// Current
+
+	&.active {
+		margin:0;
+		visibility:visible;
+		}
+
+	// Content
+
+	@import
+		'content/code-full';
+
+	// Elements
+
+	@import
+		'elements/next-full',
+		'elements/shout-full';
+
+	}
