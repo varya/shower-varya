@@ -88,6 +88,6 @@ gulp.task('build', ['build:clean', 'styles', 'js'], function() {
 gulp.task('deploy', ['build'], function() {
   return gulp.src('./dist/**/*')
     .pipe(ghPages({
-      remoteUrl: 'git@github.com:SC5/shower-sc5.git'
+      remoteUrl: 'git@github.com:varya/shower-varya.git'
     }));
 });

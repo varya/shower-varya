@@ -1,18 +1,18 @@
 {
-  "name": "shower-sc5",
-  "description": "SC5 theme for Shower HTML presentation engine",
+  "name": "shower-varya",
+  "description": "Varya's theme for Shower HTML presentation engine",
   "version": "1.0.0",
   "author": {
     "name": "Varya Stepanova",
     "url": "http://varya.me/"
   },
-  "homepage": "https://github.com/sc5/shower-sc5",
+  "homepage": "https://github.com/varya/shower-varya",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sc5/shower-sc5.git"
+    "url": "git://github.com/varya/shower-varya.git"
   },
   "bugs": {
-    "url": "http://github.com/sc5/shower-sc5/issues"
+    "url": "http://github.com/varya/shower-varya/issues"
   },
   "license": "MIT",
   "keywords": [

@@ -1,8 +1,8 @@
-# SC5 theme for Shower [![Build Status](https://travis-ci.org/shower/ribbon.svg?branch=master)](https://travis-ci.org/shower/ribbon)
+# Varya's theme for Shower
 
-![SC5 theme screen shot](pictures/canvas.png)
+![Varya's theme screenshot](pictures/cover.png)
 
-[See it in action](https://sc5.github.io/shower-sc5/).
+[See it in action](https://varya.me/shower-varya/).
 
 ## Usage
 
@@ -21,7 +21,7 @@ If you want to adjust theme for your needs:
 3. Start a local server with watcher: `npm run dev`.
 4. Edit your files and see changes in the opened browser.
 
-You can deploy your changes to [https://sc5.github.io/shower-sc5/](https://sc5.github.io/shower-sc5/):
+You can deploy your changes to [https://varya.me/shower-varya/](https://sc5.github.io/shower-varya/):
 
     npm run deploy
 
